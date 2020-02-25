@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+ <html>
+  <head>
+    <title> html assignment </title>
+    
+   <style>
+
+   h1{
+       color:red;
+       text-align:center;
+       font-family:mv boli;
+     }
+
+    tr,td,table{
+      font-family:mv boli;
+      border:3px solid black;
+      padding:6px;
+      font-size:20px;
+      border-spacing:2px;
+      text-align:center;
+      width:40%;
+    }
+
+  iframe{
+      border:3px solid black;
+      height:500px;
+      width:1400px;
+      
+    }
+
+  body{
+    background-image:url('gal.png');
+    background-repeat:no repeat;
+    background-attachment:fixed;
+    background-size:100% 100%;
+    margin:50px;
+     }
+
+  a:link {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+  </style>
+ </head>
+
+<body>
+
+   <img src="iiitkota.jpg" style="height:150px;width:400px;float:left;">
+   
+  <h1> The Following Show The content Of My Mini Webpage </h1>
+  
+  <table  align="center">
+    <tr>
+      <td><a href="aboutme.html" target="iframe_a"> About Me </a></td>
+      <td><a href="location.html" target="iframe_a"> Location </a></td>
+      <td><a href="courses.html" target="iframe_a"> Courses </a></td>
+      <td><a href="abouthtml.html" target="iframe_a"> about html </a></td> 
+    </tr>
+  </table>
+  <br>
+  <br>
+
+<iframe src="aboutme.html" name="iframe_a"></iframe>
+
+ 
+</body>
+</html>
